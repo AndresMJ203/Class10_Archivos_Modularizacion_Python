@@ -20,4 +20,4 @@ from.carga_datos import generar_lista_compra , guardar_lista_compras
 
 
 # Definimos la lista '__all__' para especificar qué nombres serán exportados cuando se use 'from analisis_datos import *'.
-_all_ = ['media', 'generar_lista_compra', 'guardar_lista_compra', 'mediana']
+__all__ = ['media', 'generar_lista_compra', 'guardar_lista_compra', 'mediana']
