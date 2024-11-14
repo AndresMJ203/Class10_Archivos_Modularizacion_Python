@@ -1,5 +1,5 @@
-pan:2275
-manzanas:1000
-huevos:3400
-cerezas:2000
-bananos:150
+radiador electrico:65000
+televisor:300000
+licuadora:35000
+freidora de aire:85000
+aspiradora:95000

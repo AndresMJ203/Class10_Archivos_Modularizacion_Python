@@ -13,11 +13,11 @@ sin necesidad de acceder a los módulos individuales.
 
 # Importamos las funciones 'media' y 'mediana' desde el módulo 'estadisticas' ubicado en el mismo paquete.
 
-
+from.estadisticas import media , mediana
 
 # Importamos las funciones 'generar_lista_compras' y 'guardar_lista_compras' desde el módulo 'carga_datos' ubicado en el mismo paquete.
-
+from.carga_datos import generar_lista_compra , guardar_lista_compras
 
 
 # Definimos la lista '__all__' para especificar qué nombres serán exportados cuando se use 'from analisis_datos import *'.
-
+_all_ = ['media', 'generar_lista_compra', 'guardar_lista_compra', 'mediana']
