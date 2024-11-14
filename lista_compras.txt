@@ -1,5 +1,5 @@
-radiador electrico:65000
-televisor:300000
-licuadora:35000
-freidora de aire:85000
-aspiradora:95000
+microondas:75000
+ventilador:20000
+secadora:220000
+calentador de agua:65000
+maquina de hacer pan:90000

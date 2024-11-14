@@ -5,11 +5,13 @@
 # Descripción: Este proyecto controla las compras de electrodomesticos.
 # Version 0.0
 
-from analisis_datos.carga_datos import generar_lista_compra , guardar_lista_compras
+from analisis_datos import *
 
-lista_compras = generar_lista_compra()
+#Generar una lista de compras aleatoria y escribir esta lista en un archivo
+lista_compras = generar_lista_compras()
 guardar_lista_compras(lista_compras)
-
 precios = [precio for _, precio in lista_compras]
-print(lista_compras)
-print(precios)
+media = media(precios)
+mediana = mediana(precios)
+print(f"Media de precios: ¢{media:.2f}")
+print(f"Mediana de precios: ¢{mediana:.2f}")

@@ -1,6 +1,6 @@
 import random
 
-def generar_lista_compra():
+def generar_lista_compras():
    electrodomesticos = {
     "refrigerador": 250000,
     "lavadora": 180000,
