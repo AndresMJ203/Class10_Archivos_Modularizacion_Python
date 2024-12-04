@@ -1,5 +1,5 @@
+humidificador:45000
+horno electrico:105000
 microondas:75000
-ventilador:20000
-secadora:220000
-calentador de agua:65000
-maquina de hacer pan:90000
+licuadora:35000
+lavadora:180000
